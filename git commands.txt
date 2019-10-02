@@ -1,0 +1,15 @@
+copy code below from github to copy in Terminal for the folder that 
+will push to the new repository.
+
+"echo "# myFirstRepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/seccabimmons/myFirstRepo.git
+git push -u origin master"
+
+Then enter the lines below one at a time to push from Terminal
+
+git add .
+git commit -m "commit message"
+git push
